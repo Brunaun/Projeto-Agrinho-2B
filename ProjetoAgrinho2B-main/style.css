@@ -7,13 +7,13 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to bottom, #fff4e2, #e0f7fa);
+  background: linear-gradient(to bottom, #f0f0f0, #f8f8f8);
   color: #464444;
   padding: 20px;
 }
 
 header {
-  background-color: #cc671f;
+  background-color: #a1a313f7;
   text-align: center;
   padding: 40px 20px;
   border-radius: 12px;
@@ -44,7 +44,7 @@ header p {
 
 .intro h2, .galeria h2, .curiosidades h2 {
   font-size: 1.8em;
-  color: #2e7d32;
+  color: #e7ece7;
   margin-bottom: 10px;
 }
 
@@ -93,7 +93,7 @@ footer {
 
 .rodape-centralizado {
   position: relative;
-  background: #cc671f;
+  background: #a1a313f7;
   color: white;
   text-align: center;
   padding: 20px 40px;
