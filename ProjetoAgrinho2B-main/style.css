@@ -37,14 +37,14 @@ header p {
 .intro, .galeria, .curiosidades {
   margin: 40px 0;
   padding: 20px;
-  background-color: #ffffffcc;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .intro h2, .galeria h2, .curiosidades h2 {
   font-size: 1.8em;
-  color: #e7ece7;
+  color: #5d4037;
   margin-bottom: 10px;
 }
 
@@ -54,9 +54,9 @@ header p {
   gap: 20px;
   margin-top: 20px;
 }
-
+.sabores { background-color: #fffbea; padding: 40px 20px; border-radius: 12px; margin-top: 40px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); } .sabores h2 { text-align: center; font-size: 2em; color: #8b5e3c; margin-bottom: 30px; } .sabores-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; } .sabor-item { background: #fffcf7; padding: 20px; border-left: 6px solid #cc671f; border-radius: 10px; transition: transform 0.3s ease; } .sabor-item:hover { transform: translateY(-5px); } .sabor-item h3 { color: #5d4037; margin-bottom: 10px; } .sabor-item p { font-size: 1em; color: #555; }
 .item {
-  background-color: #f0f4c3;
+  background-color: #f0f4c3af;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -111,4 +111,15 @@ footer {
 
 .logo-parana-esquerda:hover {
   opacity: 1;
+}
+.sabor-item img {
+width: 100%; /* Faz a imagem ocupar toda a largura do item */
+height: 200px; /* Define uma altura fixa */
+object-fit: cover; /* Garante que a imagem cubra completamente o espaço, mantendo a proporção */
+border-radius: 6px; /* Borda arredondada nas imagens */
+transition: transform 0.3s ease; /* Animação para o hover */
+}
+
+.sabor-item:hover img {
+transform: scale(1.05); /* Aumenta ligeiramente a imagem ao passar o mouse */
 }
